@@ -1,0 +1,71 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.full-width{
+    width: 100%;
+}
+
+ul.misha_gallery_mtb.ui-sortable {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li.ui-sortable-handle span {
+    width: 150px;
+    height: 15vh;
+    display: block;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+
+a.misha_gallery_remove {
+    background: #de4e4e;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    width: 25px !important;
+    height: 25px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.misha_gallery_mtb.ui-sortable li {
+    margin: 0.5rem;
+    border: 1px solid #888;
+    box-shadow: 0 0 8px 3px #dddddda3;
+}
+
+
+.menu-icon-projects .wp-menu-image:before,
+.menu-icon-developers .wp-menu-image:before,
+.menu-icon-locations .wp-menu-image:before,
+.menu-icon-consultant .wp-menu-image:before,
+.menu-icon-packing .wp-menu-image:before{
+    color: #ffed00 !important;
+}
+
+.wp-menu-open.menu-icon-projects > a,
+.wp-menu-open.menu-icon-developers > a,
+.wp-menu-open.menu-icon-locations > a,
+.wp-menu-open.menu-icon-consultant > a,
+.wp-menu-open.menu-icon-packing > a {
+    background: #7fff32 !important;
+    color: #3f464a !important;
+    font-weight: bold !important;
+}
+
+.wp-menu-open.menu-icon-projects .wp-menu-image:before,
+.wp-menu-open.menu-icon-developers .wp-menu-image:before,
+.wp-menu-open.menu-icon-locations .wp-menu-image:before,
+.wp-menu-open.menu-icon-consultant .wp-menu-image:before,
+.wp-menu-open.menu-icon-packing .wp-menu-image:before {
+    color: #2c3338 !important;
+}
+
+input#banner_image_url {
+    width: 100%;
+}
